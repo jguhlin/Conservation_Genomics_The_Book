@@ -1,0 +1,15 @@
+[project]
+authors = ["Joseph Guhlin <joseph.guhlin@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "Conservation_Genomics_The_Book"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+uv = ">=0.6.16,<0.7"
+pip = ">=25.0.1,<26"
+quarto = ">=1.6.43,<2"
